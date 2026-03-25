@@ -11,9 +11,8 @@ use itertools::Itertools;
 use oxc_index::{IndexVec, index_vec};
 use rolldown_common::{
   Chunk, ChunkIdx, ChunkKind, ChunkMeta, EntryPointKind, ExportsKind, ImportKind, ImportRecordIdx,
-  ImportRecordMeta, IndexModules, Module, ModuleIdx,
-  ModuleNamespaceIncludedReason, PostChunkOptimizationOperation, PreserveEntrySignatures,
-  SymbolRef, WrapKind,
+  ImportRecordMeta, IndexModules, Module, ModuleIdx, ModuleNamespaceIncludedReason,
+  PostChunkOptimizationOperation, PreserveEntrySignatures, SymbolRef, WrapKind,
 };
 use rolldown_error::BuildResult;
 use rolldown_utils::{
